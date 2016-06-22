@@ -1,0 +1,111 @@
+/*
+    Reset styles
+    1.Set the basic style of the label
+    2.Set common styles
+*/
+/*1*/
+html,body,div,p,ul,li,h1,h2,h3,h4,h5,h6,dl,dt,dd,
+header,nav,article,section,footer,audio,video,
+span,a,strong,em,var,i,label,
+input,select,button,textarea {
+    background-color: transparent;
+    border: none;
+    font-family:Microsoft YaHei,Arial,sans-serif;
+    font-size:12px;
+    margin: 0;
+    outline: none;
+    padding: 0;
+}
+ul,li {
+    list-style: none;
+}
+span,a,strong,em,var,i,label {
+    font-style: normal;
+}
+a {
+    outline: none;
+    text-decoration: none;
+}
+input,select,button,textarea {
+    border: none;
+    outline: none;
+}
+input:focus,select:focus,button:focus,textarea:focus {
+    border: none;
+    outline: none;
+}
+textarea {
+    resize: none;
+}
+/*2*/
+.clearfix:after {
+    clear: both;
+    content: "";
+    display: block;
+    visibility: hidden;
+    height: 0;
+}
+.clearfix {
+    zoom: 1;
+}
+.clear {
+    clear: both;
+    height: 0;
+}
+.hide {
+    display:none;
+}
+.show {
+    display: block;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.posr {
+    position: relative;
+}
+.posa {
+    position: absolute;
+}
+.posf {
+    position: fixed;
+}
+.db {
+    display: block;
+}
+.di {
+    display: inline;
+}
+.dib {
+    display: inline-block;
+    margin-left: -4px;
+    vertical-align: middle;
+}
+.dtc {
+    display: table-cell;
+    vertical-align: middle;
+}
+.tac {
+    text-align: center;
+}
+.bgs {
+    -webkit-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+.texthide {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+
+
+
+
+
+
+
+
