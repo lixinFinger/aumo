@@ -52,7 +52,7 @@ $(window).scroll(function(){
     calculation(docH,winH,winT);
 });
 function calculation ( docH,winH,winT ) {
-    if ( docH == winH + winT ) {
+    if ( docH < winH + winT + 10 ) {
         $news = $(".js-news");
         if ( $news.length > 0 ) {
             $news.eq(0).show().removeClass("js-news").animate({"opacity": "1"},1000);
