@@ -33,5 +33,9 @@
 <script>
     var $in = $("#index");
     $in.css({"top": ( $(window).height() - 300 ) / 2 + "px"});
+
+    var $video = $("video");
+    console.log($video.height());
+    $video.css({"top" : ( $(window).height() - $video.height() ) / 2.3 + "px"});
 </script>
 </html>
