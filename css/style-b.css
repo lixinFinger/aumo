@@ -68,6 +68,9 @@ html, body {
 .nav-warp li a:hover i {
     opacity: .7;
 }
+.nav-warp li a.select i {
+    opacity: .7;
+}
 
 .footer {
     background: #000000;
@@ -610,3 +613,26 @@ video {
     margin: 0 0 35px 40px;
     width: 240px;
 }
+/*Î¢ÐÅ¶þÎ¬Âë*/
+.ewm {
+    background: rgba(0,0,0,.9);
+    height: 100%;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.ewm img {
+    margin-left: 0;
+    padding-top: 200px;
+}
+.ewm span {
+    color: #fff;
+    font-size: 20px;
+    margin-left: 0;
+    padding: 20px 0 0;
+}
+
+
+
+

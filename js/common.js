@@ -28,10 +28,12 @@ if ( $footer.length > 0 ) {
         layerWxcode.className = 'towdimcodelayer js-transition';
     }
     // wx
-    $footer.find("a").eq(1).hover(function () {
-        $(this).find("i").fadeIn(300);
-    },function () {
-        $(this).find("i").fadeOut(300);
+    var $ewm = $("#ewm");
+    $footer.find("a").eq(1).click(function () {
+        $ewm.fadeIn(300);
+    });
+    $ewm.click(function () {
+        $ewm.fadeOut(300);
     });
 }
 // 滚动加载
